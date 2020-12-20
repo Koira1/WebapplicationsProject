@@ -1,0 +1,134 @@
+.modal {
+    position: fixed;
+    top: center;
+    left: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+    position: fixed;
+    background: white;
+    width: 80%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #4a4c5370;
+    padding: 20px;
+    display: block;
+    overflow: auto;
+}
+
+input[type=text],
+input[type=textarea],
+input[type=email],
+input[type=password],
+select,
+textarea,
+Form.Control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+Form.Label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+.Login {
+    background-color: grey;
+    width: 50%;
+    margin-top: 10px;
+    margin: auto;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.username {
+    width: 30%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.password {
+    width: 30%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.usernameLabel {
+    margin-left: 43%;
+    font-size: medium;
+}
+
+.passwordLabel {
+    margin-left: 43%;
+    font-size: medium;
+}
+
+.close {
+    margin-left: 75%;
+}
+
+.navbar {
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: start;
+    flex-grow: 1;
+}
+
+.nav-link {
+    display: flex;
+    padding: .5rem 1rem;
+    float: left;
+    justify-content: start;
+    font-size: 0.5em;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.buttons {
+    margin-left: 10px;
+}
